@@ -17,12 +17,20 @@
   })();
 </script>
 <!-- End Matomo Code -->
-
+ <script src="//code.jquery.com/jquery.min.js"></script>
 </head>
 
 <body>
     <h1> Hello world </h1>
     <p> how are you </p>
+      <div id="nav-placeholder"></div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("new.html");
+        });
+    </script>
 </body>
 
 </html>
+
